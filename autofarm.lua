@@ -87,7 +87,7 @@ local function resetAndKick()
         task.wait(1)
     end
     if enabled then
-        LocalPlayer:Kick("Reset + Kick executed (5 seconds).")
+        LocalPlayer:Kick("Reset + Kick executed (Player Joined).")
     end
 end
 
