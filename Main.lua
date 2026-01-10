@@ -130,3 +130,8 @@ minimizeBtn.MouseButton1Click:Connect(function()
         gtLabel.Visible = false
     end
 end)
+
+--
+
+local notifs = loadstring(game:HttpGet('https://raw.githubusercontent.com/vericodified/FE2-STYLED-Notifications./refs/heads/main/script.lua'))()
+notifs.alert("AutofarmX by Verified",nil,nil,'rainbow')
